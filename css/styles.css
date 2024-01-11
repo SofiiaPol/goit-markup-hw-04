@@ -144,6 +144,15 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -189,6 +198,13 @@ img {
   padding: 120px 0;
 }
 
+.feature-icon-container {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  padding: 24px 100px;
+}
+
 .features-list {
   display: flex;
   flex-direction: row;
@@ -232,6 +248,7 @@ img {
 
 .container-team {
   padding: 32px 0;
+  /* display: flex; */
 }
 
 .team-h {
@@ -256,8 +273,23 @@ img {
 }
 
 .team-discription {
+  /* display: flex; */
+  /* justify-content: space-between; */
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon-app {
+  width: 40px;
+  height: 40px;
 }
 
 .portfolio {
