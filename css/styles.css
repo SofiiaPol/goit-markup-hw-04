@@ -113,8 +113,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .nav-item-link {
@@ -124,6 +124,8 @@ img {
 .nav-item-link:hover,
 .nav-item-link:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
@@ -143,13 +145,13 @@ img {
 
 .address-item {
   padding: 24px 0;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:hover,
 .address-item:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Header styles END*/
 
@@ -412,4 +414,13 @@ img {
   flex-direction: column;
   padding-top: 16px;
   max-width: 264px;
+}
+
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-media {
+  color: var(--color-white);
 }
