@@ -408,6 +408,16 @@ img {
   border-bottom: 1px;
   padding: 100px 0;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.slogan-container {
+  margin-right: 120px;
+}
+
 .footer-slogan {
   color: #f4f4fd;
   display: flex;
@@ -423,4 +433,5 @@ img {
 
 .footer-social-media {
   color: var(--color-white);
+  padding-bottom: 16px;
 }
