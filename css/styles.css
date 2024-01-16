@@ -291,7 +291,7 @@ img {
   gap: 24px;
 }
 
-.icon-app-container {
+.icon-a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,8 +304,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-app-container:hover,
-.icon-app-container:focus {
+.icon-a:hover,
+.icon-a:focus {
   background-color: #31d0aa;
 }
 
