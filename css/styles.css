@@ -390,6 +390,7 @@ img {
 .footer-container {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
 .slogan-container {
@@ -414,4 +415,8 @@ img {
 .footer-social-media {
   color: #ffffff;
   padding-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
