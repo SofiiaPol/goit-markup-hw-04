@@ -117,6 +117,7 @@ img {
 
 .active-page {
   position: relative;
+  color: #404bbf;
 }
 
 .active-page::after {
@@ -440,6 +441,10 @@ img {
 .footer-social-container .icon-app {
   width: 24px;
   height: 24px;
+}
+
+.footer-social-container .container-icon {
+  gap: 16px;
 }
 
 .footer-social-container .icon-a:hover,
